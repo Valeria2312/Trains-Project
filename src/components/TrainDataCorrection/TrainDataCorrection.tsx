@@ -13,8 +13,14 @@ export const TrainDataCorrection = () => {
     Update.map(e => Number(e.speedLimit))
 
     const handleSubmit = (event: SyntheticEvent) => {
+        if(Update) {
+            console.log("Запрос успешен:")
+            console.log(Update)
+        } else {
+            console.log("Что то пошло не так")
+        }
 
-        console.log(Update)
+
         event.preventDefault();
     }
 
