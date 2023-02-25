@@ -1,0 +1,17 @@
+.container {
+    width: 600px;
+    max-height: 600px;
+    overflow-y: scroll;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(10, 29, 33, 0.16), 0 2px 4px rgba(10, 29, 33, 0.24);
+    border-radius: 8px;
+}
+
+.container::-webkit-scrollbar {
+    background: #8585AD;
+    width: 8px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #2F2F37;
+}

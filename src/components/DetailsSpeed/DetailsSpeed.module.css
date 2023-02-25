@@ -1,0 +1,19 @@
+.speed_details {
+    display: flex;
+    flex-direction: column;
+    border: solid 4px;
+    max-width: 400px;
+    max-height: 250px;
+    padding: 50px 20px;
+}
+
+.speed_name {
+    font-size: 20px;
+    height: 50px;
+    padding-bottom: 5px;
+}
+
+.speed_limit {
+    height: 20px;
+    margin-bottom: 5px;
+}
